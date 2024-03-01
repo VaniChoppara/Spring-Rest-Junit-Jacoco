@@ -1,0 +1,18 @@
+2024-02-28 15:37:37,099 [main] INFO  com.app.Application                                - Starting Application using Java 17.0.8.1 with PID 22044 (D:\Ravi\sandya\Realtime\55_Spring_Rest_Junit_Jcoco\target\classes started by Lenovo in D:\Ravi\sandya\Realtime\55_Spring_Rest_Junit_Jcoco)
+2024-02-28 15:37:37,103 [main] INFO  com.app.Application                                - No active profile set, falling back to 1 default profile: "default"
+2024-02-28 15:37:38,058 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port 8080 (http)
+2024-02-28 15:37:38,071 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 15:37:38,074 [main] INFO  o.apache.catalina.core.StandardService             - Starting service [Tomcat]
+2024-02-28 15:37:38,076 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-02-28 15:37:38,142 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2024-02-28 15:37:38,143 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 984 ms
+2024-02-28 15:37:38,549 [main] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 15:37:38,570 [main] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 15:37:38,581 [main] INFO  com.app.Application                                - Started Application in 1.904 seconds (process running for 2.855)
+2024-02-28 15:37:50,248 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 15:37:50,248 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2024-02-28 15:37:50,250 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 2 ms
+2024-02-28 15:37:50,286 [http-nio-8080-exec-1] INFO  com.app.controller.WelcomeController               - Started Greet Msg()
+2024-02-28 15:37:50,286 [http-nio-8080-exec-1] INFO  com.app.controller.WelcomeController               - Greet Msg() execution done
+2024-02-28 15:38:22,226 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-02-28 15:38:22,231 [RMI TCP Connection(4)-127.0.0.1] INFO  o.apache.coyote.http11.Http11NioProtocol           - Stopping ProtocolHandler ["http-nio-8080"]
